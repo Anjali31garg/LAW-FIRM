@@ -1,0 +1,8 @@
+.wrapper {
+    display: flex;
+    gap: 3rem;
+    cursor: pointer;
+    color: var(--color-white);
+  }
+  
+ 

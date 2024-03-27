@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 3rem;
+    background-color: var(--color-primary);
+  }
+  .btn {
+    width: 11rem;
+    height: 3rem;
+    border: 2px solid var(--color-white);
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+            
+      padding: 0.2rem;
+    }
+  }
+  
+  /* Media queries for mobile devices */
+  @media screen and (max-width: 576px) {
+    .wrapper {
+      flex-direction: column; /* Stack items vertically */
+      align-items: stretch; /* Stretch items to full width */
+      padding: 1rem;
+        width: 100%;
+    }
+  
+    .btn {
+      width: 100%; /* Make button full width */
+      margin-top: 1rem; /* Add space between button and other items */
+    }
+  
+  }
+
+
+  

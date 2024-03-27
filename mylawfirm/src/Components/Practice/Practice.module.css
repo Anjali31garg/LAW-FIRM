@@ -1,0 +1,57 @@
+.areaWrap {
+	width: 100%;
+    background-color: var(--color-primary);
+}
+
+.prac{
+	
+	margin-bottom: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.prac > h1 {
+	color: #fff;
+	font-family: Inter;
+	font-size: 54px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 143.023%;
+
+}
+
+.gridContainer{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-left: 14rem;
+}
+
+ 
+.gridItem p {
+	text-align: center;
+	color: #fffbf2;
+	font-family: Inter;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 24px;
+}
+
+.gridItem{
+    position: relative;
+   
+
+}
+.gridItem .SmallImg{
+    position: absolute;
+	bottom: 20px;
+	left: 120px;
+}
+
+.gridItem .largeImg{
+    position: absolute;
+	bottom: 30px;
+    left: 350px;
+
+} 
